@@ -27,7 +27,7 @@ export default function Search() {
   ];
 
   return (
-    <div className='px-4 sm:px-6 md:px-10 lg:px-32 mt-6 md:mt-10 relative'>
+    <div className='px-5 sm:px-6 md:px-10 lg:px-32 mt-6 md:mt-10 relative'>
 
       <div className='hidden md:flex items-center justify-between pr-2 shadow-lg rounded-full bg-white overflow-hidden'>
         {data.map((item, index) => (

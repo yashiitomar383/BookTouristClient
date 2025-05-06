@@ -10,7 +10,7 @@ export default function TrendingAdventures() {
   ]
 
   return (
-    <div className="mt-12 px-6 md:px-20  md:pt-10 pt-1">
+    <div className="mt-12 px-5 md:px-20  md:pt-10 pt-1">
       <div className="pt-8">
         <h1 className="font-bold text-3xl text-center mb-8">Trending Adventures</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 my-5">

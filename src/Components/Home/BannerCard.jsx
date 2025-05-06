@@ -10,7 +10,7 @@ export default function BannerCard() {
   ];
 
   return (
-    <div className="px-10 relative mb-40"> 
+    <div className="md:px-10 px-5 relative mb-40"> 
       <div className="relative flex items-center pl-10 bg-cover bg-center h-[300px] mt-10 rounded-3xl"
         style={{  backgroundImage: 'url("https://cdn.tourradar.com/s3/content-pages/391/2048x700/3K2rOm.png")',}}>
         <div>

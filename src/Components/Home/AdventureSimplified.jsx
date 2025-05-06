@@ -1,13 +1,13 @@
 import React from 'react';
 
 export default function AdventureSimplified() {
-    // Utility styles
+    
     const textStyles = 'max-w-[480px] mt-5';
     const buttonStyles = 'mt-5 bg-blue-200 px-3 py-2 mb-5 rounded-3xl hover:bg-blue-300 font-semibold';
 
     return (
-        <div className="flex md:flex-row flex-col px-20 mt-10">
-            {/* Left Content */}
+        <div className="flex md:flex-row flex-col md:px-20 px-5 mt-10">
+           
             <div className="md:w-1/2 w-full">
                 <h1 className="text-3xl font-bold">Adventure Simplified</h1>
                 <p className={textStyles}>
