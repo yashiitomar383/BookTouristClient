@@ -3,6 +3,8 @@ import Search from './Search'
 import BannerCard from './BannerCard'
 import TrendingAdventures from './TrendingAdventures'
 import AdventureSimplified from './AdventureSimplified'
+import Reviews from './Reviews'
+import Spotlight from './Spotlight.jsx'
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
         <BannerCard/>
         <TrendingAdventures/>
         <AdventureSimplified/>
+        <Reviews/>
+        <Spotlight/>
     </div>
   )
 }
