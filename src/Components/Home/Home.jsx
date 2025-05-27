@@ -8,6 +8,7 @@ import Spotlight from './Spotlight.jsx'
 import Destinations from './Destinations.jsx'
 import Besttour from './Besttour.jsx'
 import World from './World.jsx'
+import Support from './Support.jsx'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <Destinations/>
         <Besttour/>
         <World />
+        <Support />
     </div>
   )
 }

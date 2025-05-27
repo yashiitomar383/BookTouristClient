@@ -1,4 +1,3 @@
-import React from 'react';
 import { TiWeatherShower } from "react-icons/ti";
 import { GiCargoShip, GiLion } from "react-icons/gi";
 import { LuTelescope } from "react-icons/lu";
@@ -72,7 +71,7 @@ export default function World() {
                             <div
                                 key={idx}
                                 className='flex items-center gap-5 bg-white shadow-md w-full sm:w-1/2 lg:w-1/4 hover:shadow-xl rounded-md'>
-                                <img className='h-15 w-15 rounded-md' src={item.img} alt={item.name} />
+                                <img className='h-15 w-15 rounded-md p-1' src={item.img} alt={item.name} />
                                 <h1>{item.name}</h1>
                             </div>
                         ))}
