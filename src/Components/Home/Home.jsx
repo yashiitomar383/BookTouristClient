@@ -6,6 +6,8 @@ import AdventureSimplified from './AdventureSimplified'
 import Reviews from './Reviews'
 import Spotlight from './Spotlight.jsx'
 import Destinations from './Destinations.jsx'
+import Besttour from './Besttour.jsx'
+import World from './World.jsx'
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <Reviews/>
         <Spotlight/>
         <Destinations/>
+        <Besttour/>
+        <World />
     </div>
   )
 }
