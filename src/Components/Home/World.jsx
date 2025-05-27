@@ -67,7 +67,7 @@ export default function World() {
                         {category.icon}
                         <h1 className='font-semibold'>{category.title}</h1>
                     </div>
-                    <div className='flex justify-between  space-x-5 mt-5'>
+                    <div className='flex justify-between md:flex-row flex-col md:gap-0 gap-5 space-x-5 mt-5'>
                         {category.data.map((item, idx) => (
                             <div
                                 key={idx}
