@@ -9,6 +9,7 @@ import Destinations from './Destinations.jsx'
 import Besttour from './Besttour.jsx'
 import World from './World.jsx'
 import Support from './Support.jsx'
+import Recommended from './Recommended.jsx'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Besttour/>
         <World />
         <Support />
+        <Recommended />
     </div>
   )
 }
